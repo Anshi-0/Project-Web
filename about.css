@@ -1,0 +1,57 @@
+* {
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    color:aliceblue;
+    font-style: sans-serif;
+    background: #000;
+   
+    background-image: url(urban-stars-2.gif);
+    background-size:auto;
+}
+
+.container {
+  
+    background: #000;
+   
+    background-image: url(urban-stars-2.gif);
+    background-size:auto;
+    
+}
+
+p{
+    font-size: 150%;
+}
+
+.container nav {
+    height: 0%;
+    width: 85%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.container nav ul li {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.container nav ul li a {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.container nav ul li a:hover{
+    color: #ffc404;
+
+}
+
+.container nav .logo{
+    font-size: 35px;
+    color: #16c1ec;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
